@@ -1,0 +1,29 @@
+{
+    "name": "december-donations",
+    "version": "1.0.0",
+    "description": "A Lisk Dapp Scaffold",
+    "private": true,
+    "author": "Jordan, Ronex, Antony",
+    "license": "MIT",
+    "scripts": {
+        "react-app:dev": "yarn workspace @december-donations/react-app dev",
+        "react-app:build": "yarn workspace @december-donations/react-app build",
+        "react-app:start": "yarn workspace @december-donations/react-app start",
+        "react-app:lint": "yarn workspace @december-donations/react-app lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LiskAfricaEcosystem/scaffold-lisk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/LiskAfricaEcosystem/scaffold-lisk/issues"
+    },
+    "homepage": "https://github.com/LiskAfricaEcosystem/scaffold-lisk/blob/main/README.md",
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "lisk",
+        "dapp"
+    ]
+}
